@@ -44,6 +44,30 @@ section#telefone{
     /* As dimensoes ali do Height e wight da section, foi de acordo com as dimensões da foto selecionada do projeto.*/
 }
 
+section#redes-sociais{
+    text-align: right;
+}
+
+section#redes-sociais a > img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    /* Para fazer um circulo*/
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.747);
+    box-sizing: border-box;
+
+    /* Aqui colocamos o box-sizing como border-box para que os icones tenham as bordas casadas com a caixa.*/
+}
+
+section#redes-sociais a > img:hover{
+    border: 1px solid rgba(255, 255, 255, 0.753);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform 0.6s, border 0.7s;
+
+    /* Aqui utilizamos no hover, border, transform, box shadow e transition com a borda.*/
+}
+
 iframe#tela{
     position: relative;
     left: 22px;
