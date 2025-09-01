@@ -61,8 +61,8 @@ section#redes-sociais a > img{
 
 section#redes-sociais a > img:hover{
     border: 2px solid rgba(255, 255, 255, 0.829);
-    transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px black;
+    transform: translate(-2px, -2px);/* esquerda e pra cima, como utilizamos os valores negativos.*/
+    box-shadow: 5px 5px 10px black;/* Aqui utilizamos o shadow pois da um efeito de sobrepor, pois utilizamos o translate.*/
     transition: transform 0.6s, border 0.2s;
 
     /* Aqui utilizamos no hover - border, transform, box shadow e transition com a borda, para dar o efeito de deslocamento.*/
