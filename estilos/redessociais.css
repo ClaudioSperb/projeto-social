@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* Aqui criamos um estilo chamado redessociais, para configurarmos as paginas que adicionamos no link dentro di index, nossa pagina inicial. Para facilitar a configuração das respectivas paginas, apenas adivionando esse link css dentro de cada uma das paginas.*/
+
 *{
             padding: 0px;
             margin: 0px;
@@ -9,6 +11,8 @@
         ::-webkit-scrollbar{
             width: 0px;
             height: 0px;
+
+            /* Utilizamos essa pseudo-classe, para tirar a rolagem lateral.*/
         }
 
         img{
@@ -25,7 +29,9 @@
 
             display: block;
             padding: 20px;
+            /* Aqui utilizamos o display block, para o link fica a baixo da nossa foto.*/
         }
+
 
         a:hover{
             background-color: red;
