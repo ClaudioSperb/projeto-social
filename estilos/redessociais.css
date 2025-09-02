@@ -17,6 +17,7 @@
 
         img{
             width: 100vw;
+            /* Aqui utilizamos o 100vw para conseguirmos utilizar as imangens dentro do iframe*/
         }
 
         a{
